@@ -1,0 +1,86 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #fff;
+}
+body{
+    background-image: url(../imgs/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 0;
+}
+nav{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    text-decoration: none;
+    font-size: 2rem;
+}
+nav section{
+    position: relative;
+    top: 35px;
+    margin-left: 100px;
+}
+.menu{
+    height: 80px;
+    width: 50%;
+    z-index: 10;
+    position: relative;
+    left: 900px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    padding-right: 80px;
+}
+.productos{
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.proct{
+    width: 500px;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(100px);
+}
+.proct img{
+    width: 300px;
+    height: auto;
+    height: 200px;
+}
+
+.proct p{
+    padding-top: 10px;
+    font-size: 2rem;
+}
+.proct h2{
+    font-size: 2.5rem;
+    font-weight: 200;
+    text-align: center;
+}
+.proct button{
+    position: relative;
+    top: 25px;
+    border: none;
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    border-radius: 16px;
+    font-size: 1.5rem;
+}
+.proct button:hover{
+    background-color: green;
+}
